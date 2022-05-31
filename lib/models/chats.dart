@@ -7,7 +7,7 @@ List<Map<String, dynamic>> myChats = [
     'last_message_by': 1, //1 self , 2 other
     'last_message_status': 1, // 0 not sent, 1 sent , 2 delivered , 3 read
     'last_message': 'Hey How are you',
-    'date_time': '4:24 PM',
+    'date_time': '2022-05-30 18:31:32',
     'un_read_msg_count': 4,
   },
   {
@@ -18,7 +18,7 @@ List<Map<String, dynamic>> myChats = [
     'last_message_by': 1, //1 self , 2 other
     'last_message_status': 1, // 0 not sent, 1 sent , 2 delivered , 3 read
     'last_message': '',
-    'date_time': '4:14 PM',
+    'date_time': '2022-05-30 06:31:32',
     'un_read_msg_count': 3,
   },
   {
@@ -29,7 +29,7 @@ List<Map<String, dynamic>> myChats = [
     'last_message_by': 2, //1 self , 2 other
     'last_message_status': 3, // 0 not sent, 1 sent , 2 delivered , 3 read
     'last_message': '0:10',
-    'date_time': '3:24 PM',
+    'date_time': '2022-05-29 18:31:32',
     'un_read_msg_count': 4,
   },
   {
@@ -40,7 +40,7 @@ List<Map<String, dynamic>> myChats = [
     'last_message_by': 1, //1 self , 2 other
     'last_message_status': 1, // 0 not sent, 1 sent , 2 delivered , 3 read
     'last_message': 'Hey How are you',
-    'date_time': '2:24 PM',
+    'date_time': '2022-05-29 18:31:32',
     'un_read_msg_count': 0,
   },
   {
@@ -51,7 +51,7 @@ List<Map<String, dynamic>> myChats = [
     'last_message_by': 2, //1 self , 2 other
     'last_message_status': 2, // 0 not sent, 1 sent , 2 delivered , 3 read
     'last_message': 'Hey How are you',
-    'date_time': '4:34 AM',
+    'date_time': '2021-04-02 18:31:32',
     'un_read_msg_count': 1,
   },
   {
@@ -62,7 +62,7 @@ List<Map<String, dynamic>> myChats = [
     'last_message_by': 1, //1 self , 2 other
     'last_message_status': 1, // 0 not sent, 1 sent , 2 delivered , 3 read
     'last_message': '',
-    'date_time': '4:54 AM',
+    'date_time': '2022-04-02 18:31:32',
     'un_read_msg_count': 0,
   },
   {
@@ -73,7 +73,7 @@ List<Map<String, dynamic>> myChats = [
     'last_message_by': 1, //1 self , 2 other
     'last_message_status': 1, // 0 not sent, 1 sent , 2 delivered , 3 read
     'last_message': '1:00',
-    'date_time': 'Yesterday',
+    'date_time': '2021-04-12 18:31:32',
     'un_read_msg_count': 2,
   },
   {
@@ -84,7 +84,7 @@ List<Map<String, dynamic>> myChats = [
     'last_message_by': 2, //1 self , 2 other
     'last_message_status': 1, // 0 not sent, 1 sent , 2 delivered , 3 read
     'last_message': 'Hey How are you',
-    'date_time': 'Yesterday',
+    'date_time': '2021-03-02 18:31:32',
     'un_read_msg_count': 0,
   },
   {
@@ -95,7 +95,7 @@ List<Map<String, dynamic>> myChats = [
     'last_message_by': 2, //1 self , 2 other
     'last_message_status': 0, // 0 not sent, 1 sent , 2 delivered , 3 read
     'last_message': 'Hey Bro, Khn ha',
-    'date_time': '5/12/22',
+    'date_time': '2021-04-02 18:31:32',
     'un_read_msg_count': 0,
   },
 ];

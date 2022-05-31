@@ -3,7 +3,7 @@ import 'package:whatsapp_copy/widgets/home_screen_widgets/HomeTabbarsList.dart';
 import 'package:whatsapp_copy/widgets/home_screen_widgets/call_screen_widgets/calls.dart';
 import 'package:whatsapp_copy/widgets/home_screen_widgets/camera.dart';
 import 'package:whatsapp_copy/widgets/home_screen_widgets/chat_screen_widgets/chats.dart';
-import 'package:whatsapp_copy/widgets/home_screen_widgets/status.dart';
+import 'package:whatsapp_copy/widgets/home_screen_widgets/status_screen_widgets/status.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -16,11 +16,11 @@ class HomePage extends StatelessWidget {
 
     return DefaultTabController(
       length: 4,
-      animationDuration: Duration(milliseconds: 240),
+      animationDuration: const Duration(milliseconds: 240),
       initialIndex: 1,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Whatsapp'),
+          title: const Text('Whatsapp Replica'),
           bottom: TabBar(
             isScrollable: true,
             indicatorColor: Colors.white,

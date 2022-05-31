@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_copy/widgets/common/circular_notification.dart';
+import 'package:whatsapp_copy/widgets/home_screen_widgets/chat_screen_widgets/chat_date.dart';
 
 class MessageTile extends StatelessWidget {
   const MessageTile({Key? key, required this.chat}) : super(key: key);
@@ -119,14 +120,16 @@ class MessageTile extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Text(
-                  chat['date_time'],
+                  chatDate(chat['date_time']),
                   style: TextStyle(color: Theme.of(context).primaryColorLight),
                 ),
                 circularNotification(
                     count: chat['un_read_msg_count'], context: context)
               ],
             )
-          : Text(chat['date_time']),
+          : Text(
+              chatDate(chat['date_time']),
+            ),
     );
   }
 }
